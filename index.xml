@@ -1,16 +1,52 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
     <channel>
-      <title>🪴 Quartz 4.0</title>
-      <link>https://quartz.jzhao.xyz</link>
-      <description>Last 10 notes on 🪴 Quartz 4.0</description>
+      <title>Akash Sharma</title>
+      <link>https://akash7243.github.io/homepage</link>
+      <description>Last 10 notes on Akash Sharma</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
-    <title>Welcome to Quartz</title>
-    <link>https://quartz.jzhao.xyz/</link>
-    <guid>https://quartz.jzhao.xyz/</guid>
-    <description>This is a blank Quartz installation. See the documentation for how to get started.</description>
-    <pubDate>Thu, 06 Jun 2024 20:12:37 GMT</pubDate>
+    <title>SimCLR</title>
+    <link>https://akash7243.github.io/homepage/Paper-Reading/SimCLR</link>
+    <guid>https://akash7243.github.io/homepage/Paper-Reading/SimCLR</guid>
+    <description>Testing! This is yet another test for broken links in Quartz.</description>
+    <pubDate>Mon, 22 Apr 2024 10:57:08 GMT</pubDate>
+  </item><item>
+    <title>Reading Notes</title>
+    <link>https://akash7243.github.io/homepage/Paper-Reading/</link>
+    <guid>https://akash7243.github.io/homepage/Paper-Reading/</guid>
+    <description></description>
+    <pubDate>Mon, 22 Apr 2024 10:57:08 GMT</pubDate>
+  </item><item>
+    <title>Resources</title>
+    <link>https://akash7243.github.io/homepage/Miscellaneous/Resources</link>
+    <guid>https://akash7243.github.io/homepage/Miscellaneous/Resources</guid>
+    <description>Basics Learning the Shell.</description>
+    <pubDate>Mon, 22 Apr 2024 10:57:08 GMT</pubDate>
+  </item><item>
+    <title>Recommended Blogs</title>
+    <link>https://akash7243.github.io/homepage/Miscellaneous/Recommended-Blogs</link>
+    <guid>https://akash7243.github.io/homepage/Miscellaneous/Recommended-Blogs</guid>
+    <description>Here are some blogs I have found to be helpful and inspiring, from homework to research and everything in between. This list keeps on updating regularly.</description>
+    <pubDate>Mon, 22 Apr 2024 10:57:08 GMT</pubDate>
+  </item><item>
+    <title>Miscellaneous</title>
+    <link>https://akash7243.github.io/homepage/Miscellaneous/</link>
+    <guid>https://akash7243.github.io/homepage/Miscellaneous/</guid>
+    <description></description>
+    <pubDate>Mon, 22 Apr 2024 10:57:08 GMT</pubDate>
+  </item><item>
+    <title>Home</title>
+    <link>https://akash7243.github.io/homepage/</link>
+    <guid>https://akash7243.github.io/homepage/</guid>
+    <description>Akash SharmaMS (Research) Student, EE @ IIT Madras I’m currently a master’s graduate student at Department of Electrical Engineering at Indian Institute of Technology Madras ...</description>
+    <pubDate>Mon, 22 Apr 2024 10:57:08 GMT</pubDate>
+  </item><item>
+    <title>Daily Notes</title>
+    <link>https://akash7243.github.io/homepage/Daily-Notes/</link>
+    <guid>https://akash7243.github.io/homepage/Daily-Notes/</guid>
+    <description></description>
+    <pubDate>Mon, 22 Apr 2024 10:57:08 GMT</pubDate>
   </item>
     </channel>
   </rss>
