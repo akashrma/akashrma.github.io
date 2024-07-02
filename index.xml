@@ -6,6 +6,18 @@
       <description>Last 10 notes on Akash Sharma</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Masked Language Modeling</title>
+    <link>https://akash7243.github.io/homepage/Daily-Notes/Masked-Language-Modeling</link>
+    <guid>https://akash7243.github.io/homepage/Daily-Notes/Masked-Language-Modeling</guid>
+    <description>Setup With BERT, the input sequence is a concatenation of two sequences of tokens (x1​,...,xN​) and (y1​,...,yM​), this input sequence is presented as follows: [CLS],x1​,...,xN​,[SEP],y1​,...,yM​,[EOS] ...</description>
+    <pubDate>Fri, 28 Jun 2024 22:24:42 GMT</pubDate>
+  </item><item>
+    <title>Language Models for Text Classification: Is In-Context Learning Enough?</title>
+    <link>https://akash7243.github.io/homepage/Paper-Reading/Language-Models-for-Text-Classification---Is-ICL-Enough</link>
+    <guid>https://akash7243.github.io/homepage/Paper-Reading/Language-Models-for-Text-Classification---Is-ICL-Enough</guid>
+    <description>Link: [2403.17661] Language Models for Text Classification: Is In-Context Learning Enough? This paper explores how text generation models combined with prompting techniques ...</description>
+    <pubDate>Fri, 28 Jun 2024 19:14:55 GMT</pubDate>
+  </item><item>
     <title>Linear Decoding and Deep Nets with Neural Collapse</title>
     <link>https://akash7243.github.io/homepage/Daily-Notes/Linear-Decoding-and-Deep-Nets-with-Neural-Collapse</link>
     <guid>https://akash7243.github.io/homepage/Daily-Notes/Linear-Decoding-and-Deep-Nets-with-Neural-Collapse</guid>
