@@ -6,6 +6,18 @@
       <description>Last 10 notes on Akash Sharma</description>
       <generator>Quartz -- quartz.jzhao.xyz</generator>
       <item>
+    <title>Notes on Toy Models of Superposition</title>
+    <link>https://akash7243.github.io/homepage/Daily-Notes/Toy-Models-of-Superposition</link>
+    <guid>https://akash7243.github.io/homepage/Daily-Notes/Toy-Models-of-Superposition</guid>
+    <description>Notes from the original paper Toy models used — small ReLU networks trained on synthetic data with sparse input features. What do they mean by “sparse” features? Most of the values in the feature space are zero.</description>
+    <pubDate>Tue, 16 Jul 2024 18:14:47 GMT</pubDate>
+  </item><item>
+    <title>How Does Information Bottleneck Help Deep Learning?</title>
+    <link>https://akash7243.github.io/homepage/Paper-Reading/How-Does-IB-help-DL</link>
+    <guid>https://akash7243.github.io/homepage/Paper-Reading/How-Does-IB-help-DL</guid>
+    <description>In the paper Representation compression and generalization in deep neural networks (Shwartz-Ziv et al., 2019), the following conjecture is given. Conjecture 1.</description>
+    <pubDate>Tue, 09 Jul 2024 12:58:54 GMT</pubDate>
+  </item><item>
     <title>Masked Language Modeling</title>
     <link>https://akash7243.github.io/homepage/Daily-Notes/Masked-Language-Modeling</link>
     <guid>https://akash7243.github.io/homepage/Daily-Notes/Masked-Language-Modeling</guid>
@@ -30,7 +42,7 @@
     <description>...</description>
     <pubDate>Mon, 24 Jun 2024 19:37:06 GMT</pubDate>
   </item><item>
-    <title>LLMs Struggle to Learn Long-Tail Knowledge</title>
+    <title>Large Language Models Struggle to Learn Long-Tail Knowledge</title>
     <link>https://akash7243.github.io/homepage/Paper-Reading/LLMs-Struggle-to-Learn-Long-Tail-Knowledge</link>
     <guid>https://akash7243.github.io/homepage/Paper-Reading/LLMs-Struggle-to-Learn-Long-Tail-Knowledge</guid>
     <description>In this paper, the authors show that a language model’s ability to answer fact-based questions is dependent on the related number of documents it pre-trained on ...</description>
