@@ -74,6 +74,7 @@ plugins:
     layout:
       position: right
       priority: 30
+      condition: not-index
   - source: "@quartz-community/crawl-links"
     enabled: true
     options:
@@ -153,11 +154,13 @@ plugins:
     layout:
       position: left
       priority: 50
+      condition: not-index
   - source: "@quartz-community/graph"
     enabled: true
     layout:
       position: right
       priority: 10
+      condition: not-index
   - source: "@quartz-community/search"
     enabled: true
     layout:
@@ -171,6 +174,7 @@ plugins:
     layout:
       position: right
       priority: 50
+      condition: not-index
   - source: "@quartz-community/article-title"
     enabled: true
     layout:
@@ -182,11 +186,13 @@ plugins:
     layout:
       position: beforeBody
       priority: 20
+      condition: not-index
   - source: "@quartz-community/tag-list"
     enabled: true
     layout:
       position: beforeBody
       priority: 30
+      condition: not-index
   - source: "@quartz-community/page-title"
     enabled: true
     layout:
@@ -204,6 +210,7 @@ plugins:
       position: left
       priority: 35
       group: toolbar
+      condition: not-index
   - source: "@quartz-community/breadcrumbs"
     enabled: true
     layout:
@@ -238,6 +245,7 @@ plugins:
       position: left
       priority: 25
       display: mobile-only
+      condition: not-index
   - source: "@quartz-community/bases-page"
     enabled: true
     options: {}
