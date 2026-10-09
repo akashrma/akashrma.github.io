@@ -1,7 +1,7 @@
 # Akash Sharma's website
 
 Quartz 5 publishes the Obsidian notes from `../blog` at https://akashrma.github.io/.
-The `v5` branch contains the site source; GitHub Actions builds and deploys `public/`.
+The `main` branch contains the site source; GitHub Actions builds and deploys `public/`.
 
 Based on [Quartz's latest v5 source](https://github.com/jackyzha0/quartz/commit/97a2d05f80c4c50534959b1d0d41cc4b3895625e), version 5.0.0.
 Setup follows the [installation guide](https://quartz.jzhao.xyz/getting-started/installation)
@@ -25,11 +25,13 @@ works on another computer without the original Obsidian vault.
 Edit the vault in `../blog`, then copy its current content into this repository:
 
 ```sh
+git switch main
+git pull --ff-only origin main
 npm run sync-vault
 npx quartz build
 git add content
 git commit -m "Update blog notes"
-git push origin v5
+git push origin main
 ```
 
 For a vault in another location, use `npm run sync-vault -- /path/to/vault`.
@@ -37,7 +39,7 @@ The copy excludes `.obsidian`, `.git`, `.DS_Store`, and `node_modules`.
 The vault remains the source of truth; copying refreshes the whole `content/` snapshot.
 
 In the GitHub repository's Settings → Pages, select **GitHub Actions** as the
-source. A successful push to `v5` then builds and deploys the site automatically.
+source. A successful push to `main` then builds and deploys the site automatically.
 
 ## Configuration
 
