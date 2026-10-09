@@ -1,3 +1,75 @@
 @use "./variables.scss" as *;
 
-// put your custom CSS here!
+// The homepage is a personal landing page; notes retain Quartz's default layout.
+body[data-slug="index"] {
+  & > .page {
+    max-width: 860px;
+  }
+
+  & > .page > #quartz-body {
+    grid-template-columns: minmax(0, 1fr);
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "grid-sidebar-left"
+      "grid-center"
+      "grid-footer";
+    padding: 0 1.5rem;
+
+    & .sidebar.left {
+      position: static;
+      height: auto;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+      padding: 2.5rem 0 1.5rem;
+      border-bottom: 1px solid var(--lightgray);
+    }
+
+    & .sidebar.right,
+    & .page-header,
+    & .page-footer {
+      display: none;
+    }
+
+    & .page-title {
+      margin: 0;
+    }
+
+    & .center > article {
+      padding-top: 1.5rem;
+
+      & > h1 {
+        font-size: clamp(2rem, 5vw, 2.8rem);
+        line-height: 1.15;
+        margin-top: 2rem;
+      }
+
+      & > h1 + p {
+        font-size: 1.2rem;
+        color: var(--darkgray);
+      }
+
+      & > h2 {
+        margin-top: 2.5rem;
+      }
+
+      & li {
+        margin-bottom: 0.75rem;
+      }
+    }
+
+    & footer {
+      padding-top: 1rem;
+    }
+
+    @media all and ($mobile) {
+      padding: 0 1rem;
+
+      & .sidebar.left {
+        padding-top: 1.5rem;
+      }
+    }
+  }
+}
