@@ -7,8 +7,6 @@ description: "Research updates and notes on deep learning, medical imaging, lang
 
 # Research, learning, and notes
 
-M.S. (Research), IIT Madras. Exploring deep learning for medical imaging, vision, and language.
-
 ## About
 
 I’m currently a Lead Engineer in the AI Research group within the Applied Research & Technology team at **Collins Aerospace (RTX)**.
