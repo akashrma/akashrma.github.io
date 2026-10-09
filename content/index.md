@@ -11,9 +11,11 @@ M.S. (Research), IIT Madras. Exploring deep learning for medical imaging, vision
 
 ## About
 
-I completed my M.S. (Research) at the [Indian Institute of Technology Madras](https://www.iitm.ac.in/), advised by [Dr. Mohanasankar Sivaprakasam](https://scholar.google.com/citations?user=udQcaS4AAAAJ&hl=en) and [Keerthi Ram](https://scholar.google.com/citations?user=IUk8C0MAAAAJ&hl=en). My master’s research focused on deep learning for medical imaging, and I worked with the [analytics team](https://iitm.humanbrain.in/people.html) at the [Sudha Gopalakrishnan Brain Centre](https://iitm.humanbrain.in/).
+I’m currently a Lead Engineer in the AI Research group within the Applied Research & Technology team at **Collins Aerospace (RTX)**.
 
-My research interests span the theory and applications of deep learning for vision and language. This site collects what I’m reading, learning, and thinking about along the way.
+I completed my master’s by research (M.S.) at the [Indian Institute of Technology Madras](https://www.iitm.ac.in/), advised by [Dr. Mohanasankar Sivaprakasam](https://scholar.google.com/citations?user=udQcaS4AAAAJ&hl=en). My research focused on unsupervised domain adaptation and deep representation learning.
+
+This site collects what I’m reading, learning, and thinking about along the way.
 
 ## Recent news
 
