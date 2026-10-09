@@ -2,6 +2,8 @@
 title: "Some definitions in Information Theory"
 date: 2024-06-25
 tags: ["math"]
+aliases:
+  - "Daily-Notes/Some-definitions-in-Information-Theory"
 ---
 
 - ***Entropy*** can intuitively be thought of as a measure of information, for any probability distribution or in other words, uncertainty of a random variable.

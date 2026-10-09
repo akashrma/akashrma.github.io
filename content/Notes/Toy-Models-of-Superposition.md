@@ -1,6 +1,8 @@
 ---
 title: "Notes on Toy Models of Superposition"
 date: 2024-07-16
+aliases:
+  - "Daily-Notes/Toy-Models-of-Superposition"
 ---
 
 ## Notes from the original paper

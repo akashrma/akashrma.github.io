@@ -2,6 +2,8 @@
 title: "Linear Decoding and Deep Nets with Neural Collapse"
 date: 2024-06-28
 tags: ["math", "informationtheory"]
+aliases:
+  - "Daily-Notes/Linear-Decoding-and-Deep-Nets-with-Neural-Collapse"
 ---
 
 [XY Han, Prevalence of Neural Collapse during the terminal phase of deep learning train., 2021.10.05](https://www.youtube.com/watch?v=AR31V1LSkOM)

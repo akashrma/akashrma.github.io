@@ -2,6 +2,8 @@
 title: "Masked Language Modeling"
 date: 2024-06-29
 tags: ["llms", "definition"]
+aliases:
+  - "Daily-Notes/Masked-Language-Modeling"
 ---
 
 ## Setup

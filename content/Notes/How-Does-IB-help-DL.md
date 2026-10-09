@@ -1,6 +1,8 @@
 ---
 title: "How Does Information Bottleneck Help Deep Learning?"
 date: 2024-07-09
+aliases:
+  - "Paper-Reading/How-Does-IB-help-DL"
 ---
 
 In the paper **Representation compression and generalization in deep neural networks** (Shwartz-Ziv et al., 2019), the following conjecture is given.

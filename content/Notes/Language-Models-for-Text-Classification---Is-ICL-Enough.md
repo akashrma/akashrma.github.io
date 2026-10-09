@@ -2,6 +2,8 @@
 title: "Language Models for Text Classification: Is In-Context Learning Enough?"
 date: 2024-06-29
 tags: ["llms", "incontextlearning", "textclassification"]
+aliases:
+  - "Paper-Reading/Language-Models-for-Text-Classification---Is-ICL-Enough"
 ---
 
 **Link:** [\[2403.17661\] Language Models for Text Classification: Is In-Context Learning Enough?](https://arxiv.org/abs/2403.17661)
@@ -30,4 +32,4 @@ Three main approaches to text classification exist $-$
 
 ### Masked Language Modeling (MLM)
 
-See [[Daily-Notes/Masked-Language-Modeling|Masked Language Modeling]] for more details.
+See [[Notes/Masked-Language-Modeling|Masked Language Modeling]] for more details.

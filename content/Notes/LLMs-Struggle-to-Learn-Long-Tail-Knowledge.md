@@ -2,6 +2,8 @@
 title: "Large Language Models Struggle to Learn Long-Tail Knowledge"
 date: 2024-06-17
 tags: ["llms", "empirical"]
+aliases:
+  - "Paper-Reading/LLMs-Struggle-to-Learn-Long-Tail-Knowledge"
 ---
 
 In this paper, the authors show that a language model’s ability to answer fact-based questions is dependent on the related number of documents it pre-trained on. The general observation is that lesser the number of relevant (to the QA pair) documents the model pre-trained on, worse is its QA performance for that particular pair.

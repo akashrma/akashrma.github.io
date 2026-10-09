@@ -1,17 +1,17 @@
 ---
 title: "Akash Sharma"
-description: "Research interests, writing, and notes on deep learning, language, vision, and mathematics."
+description: "Research updates and notes on deep learning, medical imaging, language, vision, and mathematics."
 ---
 
-[About](#about) · [News](#recent-news) · [Writing](#selected-writing) · [Notes](#notes) · [Contact](#contact)
+[About](#about) · [News](#recent-news) · [Notes](#notes) · [Contact](#contact)
 
 # Research, learning, and notes
 
-MS (Research) student in Electrical Engineering at IIT Madras. Exploring deep learning for vision and language.
+M.S. (Research), IIT Madras. Exploring deep learning for medical imaging, vision, and language.
 
 ## About
 
-I’m a master’s research student at the [Indian Institute of Technology Madras](https://www.iitm.ac.in/), advised by [Dr. Mohanasankar Sivaprakasam](https://scholar.google.com/citations?user=udQcaS4AAAAJ&hl=en) and [Keerthi Ram](https://scholar.google.com/citations?user=IUk8C0MAAAAJ&hl=en). I’m also part of the [analytics team](https://iitm.humanbrain.in/people.html) at the [Sudha Gopalakrishnan Brain Centre](https://iitm.humanbrain.in/).
+I completed my M.S. (Research) at the [Indian Institute of Technology Madras](https://www.iitm.ac.in/), advised by [Dr. Mohanasankar Sivaprakasam](https://scholar.google.com/citations?user=udQcaS4AAAAJ&hl=en) and [Keerthi Ram](https://scholar.google.com/citations?user=IUk8C0MAAAAJ&hl=en). My master’s research focused on deep learning for medical imaging, and I worked with the [analytics team](https://iitm.humanbrain.in/people.html) at the [Sudha Gopalakrishnan Brain Centre](https://iitm.humanbrain.in/).
 
 My research interests span the theory and applications of deep learning for vision and language. This site collects what I’m reading, learning, and thinking about along the way.
 
@@ -19,28 +19,19 @@ My research interests span the theory and applications of deep learning for visi
 
 | Date | Update |
 | :--- | :--- |
-| — | Research and professional updates will appear here. |
+| Jul 2026 | Graduated from IIT Madras with an M.S. (Research). |
+| May 2026 | 🎉 Won **first place** in the inaugural **alphaXiv × marimo Notebook Competition** for [Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights](https://molab.marimo.io/notebooks/nb_v48H54PQBFWQ1fhBoizSjj). [Winner announcement](https://marimo.io/blog/newsletter-24). |
+| Apr 2026 | 🎉 *Equiangular Prototype Alignment for Unsupervised Domain-Adaptive Medical Image Segmentation* was accepted to **IEEE ICIP 2026**. [Code](https://github.com/akashrma/epa-medical-uda). |
+| Jun 2025 | *Mechanistic Interpretability of Transformers in Non-dictionary Setting Using Toy Datasets*, accepted to **ICONIP 2024**, is now published. [Paper](https://link.springer.com/chapter/10.1007/978-981-96-6948-6_10). |
+| Jul 2024 | Joined the Applied Research & Technology team at **Collins Aerospace (RTX)**. |
 
-<!-- Replace the placeholder row with your announcements, newest first.
-Each row uses: | Oct 2026 | Your update, with an optional [link](https://example.com). |
-For a longer announcement, link to a note in the vault using an Obsidian wikilink.
+<!-- Add new announcements as rows at the top of the table, newest first.
+Use: | Month Year | Your update, with an optional [link](https://example.com). |
 -->
-
-## Selected writing
-
-- [[Daily-Notes/Linear-Decoding-and-Deep-Nets-with-Neural-Collapse|Linear Decoding and Deep Nets with Neural Collapse]] — Notes on learned representations and linear decoding.
-- [[Paper-Reading/How-Does-IB-help-DL|How Does Information Bottleneck Help Deep Learning?]] — Reading notes on the information bottleneck perspective.
-- [[Paper-Reading/LLMs-Struggle-to-Learn-Long-Tail-Knowledge|Large Language Models Struggle to Learn Long-Tail Knowledge]] — Reading notes on language models and rare knowledge.
-
-## Recent notes
-
-- **17 July 2024** · [[Daily-Notes/Mech-Interp,-Variables,-Interpretable-Bases|Mechanistic interpretability, variables, and interpretable bases]]
-- **16 July 2024** · [[Daily-Notes/Toy-Models-of-Superposition|Notes on Toy Models of Superposition]]
-- **9 July 2024** · [[Paper-Reading/How-Does-IB-help-DL|How Does Information Bottleneck Help Deep Learning?]]
 
 ## Notes
 
-Browse [[Daily-Notes/index|Daily Notes]] for ideas and explanations, or [[Paper-Reading/index|Paper Reading]] for notes on research papers.
+Browse [[Notes/index|my notes]] for research paper summaries, ideas, and explanations on deep learning, language, vision, and mathematics.
 
 ## Contact
 
