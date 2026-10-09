@@ -21,7 +21,7 @@ My research interests span the theory and applications of deep learning for visi
 | :--- | :--- |
 | Jul 2026 | Graduated from IIT Madras with an M.S. (Research). |
 | May 2026 | 🎉 Won **first place** in the inaugural **alphaXiv × marimo Notebook Competition** for [Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights](https://molab.marimo.io/notebooks/nb_v48H54PQBFWQ1fhBoizSjj). [Winner announcement](https://marimo.io/blog/newsletter-24). |
-| Apr 2026 | 🎉 *Equiangular Prototype Alignment for Unsupervised Domain-Adaptive Medical Image Segmentation* was accepted to **IEEE ICIP 2026**. [Code](https://github.com/akashrma/epa-medical-uda). |
+| Apr 2026 | 🎉 *Equiangular Prototype Alignment for Unsupervised Domain-Adaptive Medical Image Segmentation* was accepted to **IEEE ICIP 2026**. [Paper](https://ieeexplore.ieee.org/document/11630366/) · [Code](https://github.com/akashrma/epa-medical-uda). |
 | Jun 2025 | *Mechanistic Interpretability of Transformers in Non-dictionary Setting Using Toy Datasets*, accepted to **ICONIP 2024**, is now published. [Paper](https://link.springer.com/chapter/10.1007/978-981-96-6948-6_10). |
 | Jul 2024 | Joined the Applied Research & Technology team at **Collins Aerospace (RTX)**. |
 
