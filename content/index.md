@@ -3,7 +3,7 @@ title: "Akash Sharma"
 description: "Research interests, writing, and notes on deep learning, language, vision, and mathematics."
 ---
 
-[About](#about) · [Writing](#selected-writing) · [Notes](#notes) · [Contact](#contact)
+[About](#about) · [News](#recent-news) · [Writing](#selected-writing) · [Notes](#notes) · [Contact](#contact)
 
 # Research, learning, and notes
 
@@ -14,6 +14,17 @@ MS (Research) student in Electrical Engineering at IIT Madras. Exploring deep le
 I’m a master’s research student at the [Indian Institute of Technology Madras](https://www.iitm.ac.in/), advised by [Dr. Mohanasankar Sivaprakasam](https://scholar.google.com/citations?user=udQcaS4AAAAJ&hl=en) and [Keerthi Ram](https://scholar.google.com/citations?user=IUk8C0MAAAAJ&hl=en). I’m also part of the [analytics team](https://iitm.humanbrain.in/people.html) at the [Sudha Gopalakrishnan Brain Centre](https://iitm.humanbrain.in/).
 
 My research interests span the theory and applications of deep learning for vision and language. This site collects what I’m reading, learning, and thinking about along the way.
+
+## Recent news
+
+| Date | Update |
+| :--- | :--- |
+| — | Research and professional updates will appear here. |
+
+<!-- Replace the placeholder row with your announcements, newest first.
+Each row uses: | Oct 2026 | Your update, with an optional [link](https://example.com). |
+For a longer announcement, link to a note in the vault using an Obsidian wikilink.
+-->
 
 ## Selected writing
 
@@ -35,4 +46,4 @@ Browse [[Daily-Notes/index|Daily Notes]] for ideas and explanations, or [[Paper-
 
 I’m happy to discuss machine learning, mathematics, and computing, or explore collaborations. Reach me by [email](mailto:akashsharma7243@gmail.com).
 
-[GitHub](https://github.com/akashrma) · [Twitter](https://twitter.com/mathcrush247) · [LinkedIn](https://www.linkedin.com/in/akashsharma7243/)
+[Google Scholar](https://scholar.google.com/citations?user=pJMinrEAAAAJ&hl=en) · [GitHub](https://github.com/akashrma) · [Twitter](https://twitter.com/mathcrush247) · [LinkedIn](https://www.linkedin.com/in/akashsharma7243/)
