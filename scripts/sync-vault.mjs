@@ -7,24 +7,22 @@ const source = resolve(process.argv[2] ?? join(root, "..", "blog"))
 const content = join(root, "content")
 const staging = join(root, ".quartz-cache", "vault-sync")
 const ignored = new Set([".obsidian", ".git", ".DS_Store", "node_modules"])
-
 if (source === root || source === content || source.startsWith(`${content}/`)) {
-  throw new Error("Select the Obsidian vault, outside this repository's content folder.")
+  throw new Error("Choose the Obsidian vault outside this repository.")
 }
 if (!(await stat(join(source, "index.md"))).isFile()) {
-  throw new Error(`The vault needs an index.md homepage: ${source}`)
+  throw new Error(`Vault homepage missing: ${source}/index.md`)
 }
-
 await rm(staging, { recursive: true, force: true })
 await mkdir(staging, { recursive: true })
-for (const entry of await readdir(source)) {
-  if (!ignored.has(entry)) {
-    await cp(join(source, entry), join(staging, entry), {
+for (const name of await readdir(source)) {
+  if (!ignored.has(name)) {
+    await cp(join(source, name), join(staging, name), {
       recursive: true,
-      filter: (path) => !ignored.has(basename(path)),
+      filter: path => !ignored.has(basename(path)),
     })
   }
 }
 await rm(content, { recursive: true, force: true })
 await rename(staging, content)
-console.log(`Copied ${source} into ${content}; Obsidian settings remain private.`)
+console.log(`Synced vault: ${source}`)

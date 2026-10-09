@@ -1,20 +1,19 @@
 ---
 title: "Large Language Models Struggle to Learn Long-Tail Knowledge"
-aliases:
-  - "Large Language Models Struggle to Learn Long-Tail Knowledge"
 date: 2024-06-17
 tags: ["llms", "empirical"]
 ---
+
 In this paper, the authors show that a language model’s ability to answer fact-based questions is dependent on the related number of documents it pre-trained on. The general observation is that lesser the number of relevant (to the QA pair) documents the model pre-trained on, worse is its QA performance for that particular pair.
 
-# Motivating Questions
+## Motivating Questions
 
 1.  Many concepts or much knowledge appears rarely on the Internet (primary source for LLM training), are language models able to learn this knowledge well? How is the LLM’s ability to answer the question affected by the number of related documents seen during the pre-training?
 2.  If there is a correlation between the number of relevant documents and the QA performance, does it also mean causation?
 3.  How can such long-tail knowledge be better captured? How does model scaling and retrieval-augmentation affect performance on long-tail knowledge?
 4.  *What kind* of knowledge language models capture $-$ do they learn “easy” facts that appear more frequently in the pre-training data?
 
-# How?
+## How?
 
 > [!question]
 >
@@ -26,6 +25,6 @@ In this paper, the authors show that a language model’s ability to answer fact
 
 ![](../images/entitylinkinglongtail.png)
 
-# References
+## References
 
 \[1\] Kandpal, Nikhil, et al. “Large language models struggle to learn long-tail knowledge.” *International Conference on Machine Learning*. PMLR, 2023.

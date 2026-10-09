@@ -77,7 +77,7 @@ plugins:
   - source: "@quartz-community/crawl-links"
     enabled: true
     options:
-      markdownLinkResolution: absolute
+      markdownLinkResolution: shortest
     order: 60
   - source: "@quartz-community/description"
     enabled: true
@@ -182,7 +182,7 @@ plugins:
       position: beforeBody
       priority: 20
   - source: "@quartz-community/tag-list"
-    enabled: false
+    enabled: true
     layout:
       position: beforeBody
       priority: 30
@@ -250,7 +250,7 @@ plugins:
         - tags
         - aliases
       excludedProperties: []
-      hidePropertiesView: false
+      hidePropertiesView: true
       delimiters: "---"
       language: yaml
     order: 5

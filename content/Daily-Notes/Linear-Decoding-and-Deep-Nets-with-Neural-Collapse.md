@@ -1,10 +1,9 @@
 ---
 title: "Linear Decoding and Deep Nets with Neural Collapse"
-aliases:
-  - "Linear Decoding and Deep Nets with Neural Collapse"
 date: 2024-06-28
 tags: ["math", "informationtheory"]
 ---
+
 [XY Han, Prevalence of Neural Collapse during the terminal phase of deep learning train., 2021.10.05](https://www.youtube.com/watch?v=AR31V1LSkOM)
 
 The following notes are based on the seminar video by one of the original authors of the Neural Collapse paper.
@@ -24,7 +23,7 @@ The following notes are based on the seminar video by one of the original author
 > - Improves generalization, test performance.
 > - Improves adversarial robustness (DeepFool metric)
 
-# Feature Engineering
+## Feature Engineering
 
 Notation exposes only last-layer objects: $W$ and $h_{i,c}=h_{i,c}^{L}$. **Full notation** $(W,\Theta)$
 
@@ -35,7 +34,7 @@ Notation exposes only last-layer objects: $W$ and $h_{i,c}=h_{i,c}^{L}$. **Full 
 
 > [!note] Neural Collapse is the **preferred end-state** of **every successful exercise** in feature engineering. Similar idea was proposed by Shannon in his 1959 paper **“Probability of Error for Optimal Codes in a Gaussian Channel”**.
 
-# Linear Decoding Over Gaussian Channel
+## Linear Decoding Over Gaussian Channel
 
 Transmitter transmits codeword: $\mu_\gamma\in\{\mu_C\}_{c=1}^{C},\quad\gamma\sim\text{Unif}\{1,\ldots,C\}$.
 
@@ -67,6 +66,6 @@ $$
 \beta_C^*\equiv\max_{H,W,b}\beta(H,W,b)
 $$
 
-# References
+## References
 
 \[1\] Papyan, Vardan, X. Y. Han, and David L. Donoho. “Prevalence of neural collapse during the terminal phase of deep learning training.” *Proceedings of the National Academy of Sciences* 117.40 (2020): 24652-24663.

@@ -1,11 +1,10 @@
 ---
 title: "Masked Language Modeling"
-aliases:
-  - "Masked Language Modeling"
 date: 2024-06-29
 tags: ["llms", "definition"]
 ---
-# Setup
+
+## Setup
 
 With BERT, the input sequence is a concatenation of two sequences of tokens $(x_1,\ldots,x_N)$ and $(y_1,\ldots,y_M)$, this input sequence is presented as follows:
 
@@ -15,7 +14,7 @@ $$
 
 $M$ and $N$ are subject to the constraint $M+N<T$, where $T$ is the maximal context/sequence length during training. The sequences are delimited by special tokens. The two sequences can be sampled contiguously from the same document with probability 0.5 or from distinct documents.
 
-# Training Objective
+## Training Objective
 
 1.  Pick a random sample of the tokens in the input sequence and replace it with a special token $[\text{MASK}]$.
 2.  MLM objective $\to$ Cross-Entropy Loss on predicting the masked tokens.
@@ -23,7 +22,7 @@ $M$ and $N$ are subject to the constraint $M+N<T$, where $T$ is the maximal cont
     1.  Select 15$\%$ of the input tokens for possible replacement with uniform probability.
     2.  Out of the selected tokens, replace 80$\%$ with $[\text{MASK}]$, leave 10$\%$ unchanged and replace the rest with a randomly selected token from the vocabulary.
 
-## Static vs. Dynamic Masking
+### Static vs. Dynamic Masking
 
 In the RoBERTa paper, a *dynamic masking* strategy is used.
 

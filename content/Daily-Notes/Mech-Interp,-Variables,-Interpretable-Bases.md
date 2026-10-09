@@ -1,10 +1,8 @@
 ---
 title: "A note on a note on mechanistic interpretability, variables, and importance of interpretable bases"
-aliases:
-  - "A note on a note on mechanistic interpretability, variables, and importance of interpretable bases"
 date: 2024-07-17
-tags: []
 ---
+
 These notes are notes on Chris Olah’s [Mechanistic Interpretability, Variables, and the Importance of Interpretable Bases](https://www.transformer-circuits.pub/2022/mech-interp-essay) **:)**
 
 - Olah presents an analogy between regular computer programs and neural networks

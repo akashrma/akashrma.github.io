@@ -1,11 +1,9 @@
 ---
 title: "Notes on Toy Models of Superposition"
-aliases:
-  - "Notes on Toy Models of Superposition"
 date: 2024-07-16
-tags: []
 ---
-# Notes from the original paper
+
+## Notes from the original paper
 
 **Toy models used** — small ReLU networks trained on synthetic data with *sparse* input features.
 
@@ -73,7 +71,7 @@ Most of the values in the feature space are zero.
   - **Decomposability** → Network representations can be described in terms of independently understandable features.
   - **Linearity** → Features are represented by direction.
 
-# Notes from Neel Nanda’s Walkthrough Video
+## Notes from Neel Nanda’s Walkthrough Video
 
 - High-dimensional spaces are not intuitive to understand.
   - It is easier to fit a lot of features (nearly orthogonal) in very high-dimensional spaces.
@@ -87,7 +85,7 @@ Most of the values in the feature space are zero.
   - Neel says that neural networks in computers are computational objects not abstract linear algebra objects. So in computers, the way you represent vectors as floats in a computer is always privileged.
   - Floating points represented in a computer — 32 bits (MSB - signed bit (+1 or -1), floating point representation in binary, exponent bit, another binary string).
 
-# References
+## References
 
 \[1\] Elhage, et al., “Toy Models of Superposition”, Transformer Circuits Thread, 2022.
 
